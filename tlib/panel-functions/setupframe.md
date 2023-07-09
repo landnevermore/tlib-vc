@@ -6,13 +6,15 @@ PANEL:SetupFrame(Width, Height, Title, ShowCloseButton)
 
 
 
-Example:
+#### Example:
 
 ```lua
 ```
 
+####
 
+***
 
-Can be used in:
+#### Only used in:
 
 [tlib.frame.md](../vgui-elements/tlib.frame.md "mention")

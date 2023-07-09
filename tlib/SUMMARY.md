@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Important](README.md)
+* [Configuration](configuration.md)
 
 ## Helper Functions
 
@@ -10,16 +11,20 @@
 
 ## Draw Functions
 
+* [TLib.Font](draw-functions/tlib.font.md)
+* [TLib.DrawSkin](draw-functions/tlib.drawskin.md)
 * [TLib.DrawHexagon](draw-functions/tlib.drawhexagon.md)
-* [TLib.DrawRoundedOutline](draw-functions/tlib.drawroundedoutline.md)
 * [TLib.HoverEffect](draw-functions/tlib.hovereffect.md)
 * [TLib.DrawCircle](draw-functions/tlib.drawcircle.md)
+* [TLib.DrawOutline](draw-functions/tlib.drawoutline.md)
+* [TLib.DrawRoundedOutline](draw-functions/tlib.drawroundedoutline.md)
 
 ## Panel Functions
 
 * [SetupTooltip](panel-functions/setuptooltip.md)
 * [SetupDock](panel-functions/setupdock.md)
 * [SetupFrame](panel-functions/setupframe.md)
+* [SetupTitle](panel-functions/setuptitle.md)
 
 ## VGUI Elements
 
@@ -28,10 +33,13 @@
   * [TLib.LabelPanel](vgui-elements/tlib.panel/tlib.labelpanel.md)
   * [TLib.TitlePanel](vgui-elements/tlib.panel/tlib.titlepanel.md)
 * [TLib.TextEntry](vgui-elements/tlib.textentry.md)
-* [TLib.Button](vgui-elements/tlib.button.md)
+* [TLib.Button](vgui-elements/tlib.button/README.md)
+  * [TLib.Button2](vgui-elements/tlib.button/tlib.button2.md)
 * [TLib.Label](vgui-elements/tlib.label.md)
 * [TLib.Combo](vgui-elements/tlib.combo.md)
+* [TLib.Progress](vgui-elements/tlib.progress.md)
 
 ## Other
 
 * [Ingame Preview](other/ingame-preview.md)
+* [Credits](other/credits.md)

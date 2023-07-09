@@ -16,4 +16,4 @@ Example:
 
 Used in:&#x20;
 
-[tlib.button.md](../vgui-elements/tlib.button.md "mention")
+[tlib.button](../vgui-elements/tlib.button/ "mention")

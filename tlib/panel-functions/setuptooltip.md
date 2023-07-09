@@ -22,4 +22,4 @@ PANEL:SetupTooltip(text)
 
 Can be used in:
 
-[tlib.textentry.md](../vgui-elements/tlib.textentry.md "mention")[tlib.button.md](../vgui-elements/tlib.button.md "mention")[tlib.label.md](../vgui-elements/tlib.label.md "mention")
+[tlib.textentry.md](../vgui-elements/tlib.textentry.md "mention")[tlib.button](../vgui-elements/tlib.button/ "mention")[tlib.label.md](../vgui-elements/tlib.label.md "mention")
