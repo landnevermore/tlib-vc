@@ -1,16 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
+# Important
 
-# Page 3
-
+Just like the Base itself this Wiki is W.I.P, some Functions etc. are still missing and Subject to change

@@ -19,6 +19,15 @@ layout:
 PANEL:SetupDock(DOCK, marginLeft, marginTop, marginRight, marginBottom)
 ```
 
+
+
+Example:
+
+```
+```
+
+
+
 Can be used in:
 
-[tlib.panel](../vgui-elements/tlib.panel/ "mention") [tlib.button.md](../vgui-elements/tlib.button.md "mention")[tlib.textentry.md](../vgui-elements/tlib.textentry.md "mention")[tlib.frame.md](../vgui-elements/tlib.frame.md "mention")
+[tlib.panel](../vgui-elements/tlib.panel/ "mention") [tlib.button.md](../vgui-elements/tlib.button.md "mention")[tlib.textentry.md](../vgui-elements/tlib.textentry.md "mention")[tlib.frame.md](../vgui-elements/tlib.frame.md "mention")[tlib.combo.md](../vgui-elements/tlib.combo.md "mention")
