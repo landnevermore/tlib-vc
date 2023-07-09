@@ -1,6 +1,8 @@
 # Table of contents
 
-* [Page](README.md)
+## Draw Functions
+
+* [Page 3](README.md)
 
 ## Panel Functions
 
