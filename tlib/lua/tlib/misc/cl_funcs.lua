@@ -32,7 +32,7 @@ function TLib.DrawCircle( x, y, radius, seg )
 		table.insert( cir, { x = x + math.sin( a ) * radius, y = y + math.cos( a ) * radius, u = math.sin( a ) / 2 + 0.5, v = math.cos( a ) / 2 + 0.5 } )
 	end
 
-	local a = math.rad( 0 ) -- This is needed for non absolute segment counts
+	local a = math.rad( 0 )
 	table.insert( cir, { x = x + math.sin( a ) * radius, y = y + math.cos( a ) * radius, u = math.sin( a ) / 2 + 0.5, v = math.cos( a ) / 2 + 0.5 } )
 
 	surface.DrawPoly( cir )
@@ -42,8 +42,6 @@ function TLib.DrawOutline(x, y, w, h, thickness, color)
     surface.SetDrawColor(color or TLib.Theme.outline)
     surface.DrawOutlinedRect(x, y, w, h, thickness)
 end
-
-
 
 function TLib.DrawRect(x, y, w, h, color)
     surface.SetDrawColor(color or color_white)
@@ -100,18 +98,6 @@ function TLib.DrawBlur(panel, amount)
     end
 end
 
-function TLib.DrawBlurRect(x, y, w, h, amount)
-    surface.SetDrawColor(255, 255, 255)
-    surface.SetMaterial(Material("pp/blurscreen"))
-    for i = 1, 3 do
-        Material("pp/blurscreen"):SetFloat("$blur", (i / 3) * (amount or 6))
-        Material("pp/blurscreen"):Recompute()
-        render.UpdateScreenEffectTexture()
-        surface.DrawTexturedRect(x * -1, y * -1, ScrW(), ScrH())
-    end
-end
-
-
 ----------------------------------------------------------------------------------------------------------------------!]]
 --! Helper Functions
 ----------------------------------------------------------------------------------------------------------------------!]]
@@ -124,6 +110,7 @@ end
 function TLib.RGBtoHex(color)
     return string.format("%02X%02X%02X", color.r, color.g, color.b)
 end
+
 
 function TLib.LerpColor(frac, from, to)
     local r = Lerp(frac, from.r, to.r)

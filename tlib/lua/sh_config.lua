@@ -6,5 +6,5 @@ TLib.Config = {
 
     ---- Default Color: 255, 255, 255
     ---- Default Color: 252, 186, 3
-    AccentColor = Color(252, 186, 3),
+    AccentColor = Color(252, 186, 3),   
 }

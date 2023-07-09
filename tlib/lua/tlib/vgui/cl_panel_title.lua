@@ -30,7 +30,6 @@ function PANEL:Init()
     self.title:Dock(FILL)
     self.title:SetText("Title")
     self.title:SetTextInset(5,0)
-
     
 end
 
