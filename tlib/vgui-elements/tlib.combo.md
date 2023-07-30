@@ -14,6 +14,8 @@ layout:
 
 # TLib.Combo
 
+***
+
 ### Description
 
 Works like the Default DProgress, 0 is 0%, 1 is 100%
@@ -22,13 +24,7 @@ Works like the Default DProgress, 0 is 0%, 1 is 100%
 
 ### Methods
 
-```lua
-Progress:SetProgress(0.5)
-```
-
-```lua
-Progress:ShowText()
-```
+Derives Methods from DComboBox
 
 ```lua
 element:SetupDock(dock, marginLeft, marginTop, marginRight, marginBottom)
@@ -40,7 +36,21 @@ element:SetupTooltip(Text)
 
 ***
 
+### Images
 
+<details>
 
+<summary>Combobox (open)</summary>
 
+<img src="../.gitbook/assets/grafik (4).png" alt="" data-size="original">
+
+</details>
+
+<details>
+
+<summary>Combobox (closed)</summary>
+
+<img src="../.gitbook/assets/grafik (5).png" alt="" data-size="original">
+
+</details>
 

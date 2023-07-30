@@ -14,6 +14,10 @@ layout:
 
 # TLib.Progress
 
+***
+
+![](<../.gitbook/assets/grafik (1).png>)
+
 ### Description
 
 Works like the Default DProgress, 0 is 0%, 1 is 100%
@@ -37,8 +41,6 @@ element:SetupDock(dock, marginLeft, marginTop, marginRight, marginBottom)
 ```lua
 element:SetupTooltip(Text)
 ```
-
-***
 
 
 
