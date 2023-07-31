@@ -18,7 +18,7 @@ layout:
 
 ### Description
 
-Works like the Default DProgress, 0 is 0%, 1 is 100%
+Simple Dropdown Menu
 
 ***
 
