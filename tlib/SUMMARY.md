@@ -28,7 +28,7 @@
 
 ## VGUI Elements
 
-* [TLib.TitlePanel](vgui-elements/tlib.titlepanel.md)
+* [TLib.TitlePanel](vgui-elements/tlib.combo.md)
 * [TLib.LabelPanel](vgui-elements/tlib.labelpanel.md)
 * [TLib.Frame](vgui-elements/tlib.frame.md)
 * [TLib.Panel](vgui-elements/tlib.panel.md)
@@ -36,7 +36,7 @@
 * [TLib.Button](vgui-elements/tlib.button/README.md)
   * [TLib.Button2](vgui-elements/tlib.button/tlib.button2.md)
 * [TLib.Label](vgui-elements/tlib.label.md)
-* [TLib.Combo](vgui-elements/tlib.combo.md)
+* [TLib.Combo](vgui-elements/tlib.combo-1.md)
 * [TLib.Progress](vgui-elements/tlib.progress.md)
 
 ## Other

@@ -12,17 +12,19 @@ layout:
     visible: false
 ---
 
-# TLib.TitlePanel
+# TLib.Combo
 
 ***
 
 ### Description
 
-Simple TLib.Panel with a Header and Title
+Simple Dropdown Menu
 
 ***
 
 ### Methods
+
+Derives Methods from DComboBox
 
 ```lua
 element:SetupDock(dock, marginLeft, marginTop, marginRight, marginBottom)
@@ -32,19 +34,23 @@ element:SetupDock(dock, marginLeft, marginTop, marginRight, marginBottom)
 element:SetupTooltip(Text)
 ```
 
-#### Derives from
-
-[tlib.panel.md](tlib.panel.md "mention")
-
 ***
 
 ### Images
 
 <details>
 
-<summary>none, yet</summary>
+<summary>Combobox (open)</summary>
 
+<img src="../.gitbook/assets/grafik (4).png" alt="" data-size="original">
 
+</details>
+
+<details>
+
+<summary>Combobox (closed)</summary>
+
+<img src="../.gitbook/assets/grafik (5).png" alt="" data-size="original">
 
 </details>
 
